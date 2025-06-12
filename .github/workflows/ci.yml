@@ -22,3 +22,6 @@ jobs:
 
       - name: Force Success
         run: (exit 0)
+
+      - name: Check coverage
+        run: npm run test -- --coverage
