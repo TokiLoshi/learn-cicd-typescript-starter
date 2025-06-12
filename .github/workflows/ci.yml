@@ -20,5 +20,5 @@ jobs:
       - name: run tests
         run: npm run test
 
-      - name: Force Failure
+      - name: Force Success
         run: (exit 0)
